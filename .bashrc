@@ -15,7 +15,7 @@ alias \
  xbps="sudo xbps-install -S" \
  xbpsup="sudo xbps-install -Su" \
  xbpsq="xbps-query -Rs" \
- xbpsr="sudo xbps-remove -R" \ 
+ xbpsr="sudo xbps-remove -R" \
  xbpsro="sudo xbps-remove -Oo" \
  xbpsl="xbps-query -l" \
  xclass="xprop | grep CLASS" \
@@ -23,7 +23,7 @@ alias \
  myip="curl ident.me;echo" \
  weather="curl -4 http://wttr.in/Sao-Paulo" \
  myvoid="neofetch; xbps-install -V; df -h /" \
- myip="curl ifconfig.co" \
+ myip="curl ifconfig.co"
 
 lss () {
 	du -hc "$1" | sort -rh | head -20
