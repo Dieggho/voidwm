@@ -1,0 +1,9 @@
+sudo xbps-install -S \
+base-devel \
+libXft-devel \
+libXinerama-devel \
+feh \
+imlib2-devel \
+libexif-devel \
+giflib-devel \
+libxrandr-devel 
