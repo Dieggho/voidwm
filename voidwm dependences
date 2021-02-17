@@ -6,4 +6,5 @@ feh \
 imlib2-devel \
 libexif-devel \
 giflib-devel \
-libxrandr-devel 
+libXrandr-devel \
+libXt
