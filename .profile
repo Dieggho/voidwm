@@ -52,6 +52,4 @@ export PATH=$PATH:$HOME/.sh
 
 /home/$USER/.fehbg &
 xcompmgr &
-devmon &
 slstatus &
-reloadwm &
