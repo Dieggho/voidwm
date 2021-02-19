@@ -5,7 +5,7 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-export EDITOR=nano
+export EDITOR=vi
 export PATH=$PATH:$HOME/.sh
 export PATH=$PATH:$HOME/.local/bin
 
@@ -22,14 +22,12 @@ alias \
  xclass="xprop | grep CLASS" \
  kls="sudo vkpurge list" \
  krm="sudo vkpurge rm all" \
- shrc="nano ~/.bashrc" \
+ shrc="vi ~/.bashrc" \
  myip="curl ident.me;echo" \
  weather="curl -4 http://wttr.in/Sao-Paulo" \
- myvoid="neofetch; xbps-install -V; df -h / /boot" \
+ myvoid="echo ;neofetch ; echo ; xbps-install -V; echo ; df -h / /boot; echo ;" \
  myip="curl ifconfig.co"
 
 lss () {
 	du -hc "$1" | sort -rh | head -20
 }
-
-
