@@ -19,6 +19,7 @@ alias \
  xr="sudo xbps-remove -R" \
  xro="sudo xbps-remove -ROo" \
  xl="xbps-query -l" \
+ xm="xbps-query -m" \
  xclass="xprop | grep CLASS" \
  kls="sudo vkpurge list" \
  krm="sudo vkpurge rm all" \
