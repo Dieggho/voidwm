@@ -1,7 +1,6 @@
 xbps-install -S \
 base-devel \
 connman \
-cryptsetup \ 
 curl \
 deadbeef \
 dejavu-fonts-ttf \
@@ -11,6 +10,7 @@ ffmpeg \
 firefox \
 font-awesome \
 fuse \
+fuse-devel \
 giflib-devel \
 gummiboot \
 imlib2-devel \
@@ -21,6 +21,7 @@ libXrandr-devel \
 libXt \
 libexif-devel \
 libmtp \
+libmtp-devel \
 lm_sensors \
 lxappearance \
 lxdm \
@@ -34,6 +35,6 @@ transmission-gtk \
 xcompmgr \
 xdo \
 xf86-video-ati \
-xorg-input \
+xorg-input-drivers \
 xorg-server \
 xprop
