@@ -16,6 +16,8 @@ alias \
  xi="sudo xbps-install -S" \
  xu="sudo xbps-install -Su" \
  xs="xbps-query -Rs" \
+ xinf="xbps-query -S" \
+ xo="xbps-query -O" \
  xr="sudo xbps-remove -R" \
  xro="sudo xbps-remove -ROo" \
  xl="xbps-query -l" \
