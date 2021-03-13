@@ -23,6 +23,7 @@ alias \
  xclass="xprop | grep CLASS" \
  kls="doas vkpurge list" \
  krm="doas vkpurge rm all" \
+ vidoas="doas vi /etc/doas.conf" \
  shrc="vi ~/.bashrc" \
  myip="curl ident.me;echo" \
  weather="curl -4 http://wttr.in/Sao-Paulo" \
