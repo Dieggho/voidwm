@@ -33,7 +33,8 @@ scrot \
 transmission-gtk \
 xcompmgr \
 xdo \
-xf86-video-ati \
 xorg-input-drivers \
 xorg-server \
-xprop
+xprop \
+#xf86-video-ati
+#xf86-video-intel
