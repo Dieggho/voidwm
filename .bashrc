@@ -28,7 +28,6 @@ alias \
  myip="curl ident.me;echo" \
  weather="curl -4 http://wttr.in/Sao-Paulo" \
  myvoid="echo ;neofetch ; echo ; xbps-install -V; echo ; df -h / /boot; echo ;" \
- myip="curl ifconfig.co" \
  poweroff="doas -n poweroff" \
  reboot="doas -n reboot" \
  zzz="doas -n zzz"
