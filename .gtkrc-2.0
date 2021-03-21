@@ -3,7 +3,7 @@
 
 include "/home/void/.gtkrc-2.0.mine"
 gtk-theme-name="Matcha-dark-sea"
-gtk-icon-theme-name="Breeze KDE-Story-Dark"
+gtk-icon-theme-name="Void"
 gtk-font-name="Sans 9"
 gtk-cursor-theme-name="Adwaita"
 gtk-cursor-theme-size=0
