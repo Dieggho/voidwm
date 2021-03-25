@@ -1,24 +1,11 @@
-export red=$'\e[0;31m'
-export RED=$'\e[1;31m'
-export green=$'\e[0;32m'
-export GREEN=$'\e[1;32m'
-export blue=$'\e[0;34m'
-export BLUE=$'\e[1;34m'
-export purple=$'\e[0;35m'
-export PURPLE=$'\e[1;35m'
-export cyan=$'\e[0;36m'
-export CYAN=$'\e[1;36m'
-export white=$'\e[0;37m'
-export WHITE=$'\e[1;37m'
-export yellow=$'\e[0;33m'
-export YELLOW=$'\e[01;33m'
-export NC=$'\e[0m'
-
-PS1='$GREEN>>$NC ' 
+PS1=$'\e[1;32m>>\e[0m ' 
 
 bind ^[a=beginning-of-line
 bind ^[e=end-of-line
 bind ^L=clear-screen
+bind -m ^U='^[0^K'
+bind ^z=delete-word-backward
+bind ^x=delete-word-forward
 
 alias \
  rt="doas -s" \
