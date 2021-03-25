@@ -22,7 +22,7 @@ bind ^L=clear-screen
 
 alias \
  rt="doas -s" \
- ls='ls --color=auto --group-directories-first' \
+ ls='ls -X --color=auto --group-directories-first' \
  xbps="doas xbps-install -S" \
  xbpsup="doas xbps-install -Su" \
  xbpss="xbps-query -Rs" \
