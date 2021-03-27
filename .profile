@@ -1,5 +1,3 @@
-# /etc/profile
-
 # Set our umask
 umask 022
 
@@ -13,9 +11,9 @@ appendpath () {
     esac
 }
 
-appendpath '/usr/local/sbin'
 appendpath '/usr/local/bin'
 appendpath '/usr/bin'
+appendpath '/bin'
 unset appendpath
 
 export PATH
@@ -26,11 +24,6 @@ if test -d /etc/profile.d/; then
 		test -r "$profile" && . "$profile"
 	done
 	unset profile
-fi
-
-# Source global bash config
-if test "$PS1" && test "$BASH" && test -z ${POSIXLY_CORRECT+x} && test -r /etc/bash.bashrc; then
-	. /etc/bash.bashrc
 fi
 
 # Termcap is outdated, old, and crusty, kill it.
@@ -46,10 +39,7 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 export QT_PLATFORMTHEME=qt5ct
 export QT_PLATFORM_PLUGIN=qt5ct
 
-
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.sh
 
-/home/$USER/.fehbg &
-xcompmgr &
-slstatus &
+export NO_AT_BRIDGE=1
